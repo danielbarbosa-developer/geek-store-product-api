@@ -1,0 +1,22 @@
+﻿services:
+  geekstore.productapi:
+    image: geekstore.productapi
+    build:
+      context: .
+      dockerfile: GeekStore.ProductApi/Dockerfile
+  
+  postgres:
+    image: postgres:latest
+    container_name: geekstore-product-db
+    environment:
+      POSTGRES_DB: geekstore-product
+      POSTGRES_USER: geekstore_product
+      POSTGRES_PASSWORD: geekstore_product
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  

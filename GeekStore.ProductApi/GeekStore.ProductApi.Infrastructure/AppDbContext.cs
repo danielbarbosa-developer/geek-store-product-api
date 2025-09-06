@@ -1,18 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GeekStore.ProductApi.Infrastructure.Config;
+using Microsoft.EntityFrameworkCore;
 
 namespace GeekStore.ProductApi.Infrastructure;
 
-public class AppDbContext : DbContext
+public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-    {
-        
-    }
-    
-    
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+        modelBuilder.ApplyConfiguration(new ProductConfiguration());
     }
 }
