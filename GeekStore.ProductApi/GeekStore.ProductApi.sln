@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.ProductApi", "GeekStore.ProductApi\GeekStore.ProductApi.csproj", "{C533D4BF-5E30-48EF-A942-E3A479FB0C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.ProductApi.Domain", "GeekStore.ProductApi.Domain\GeekStore.ProductApi.Domain.csproj", "{4FAF0A5F-A8CE-444F-8809-3814CC9BC187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.ProductApi.Infrastructure", "GeekStore.ProductApi.Infrastructure\GeekStore.ProductApi.Infrastructure.csproj", "{7C4F4110-C0F0-48D4-9B20-E9CEA2064B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4FEDD761-A328-4E70-B4D9-BBA9BF7A11A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.ProductApi.IntegrationTests", "GeekStore.ProductApi.IntegrationTests\GeekStore.ProductApi.IntegrationTests.csproj", "{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C533D4BF-5E30-48EF-A942-E3A479FB0C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C533D4BF-5E30-48EF-A942-E3A479FB0C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C533D4BF-5E30-48EF-A942-E3A479FB0C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C533D4BF-5E30-48EF-A942-E3A479FB0C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAF0A5F-A8CE-444F-8809-3814CC9BC187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAF0A5F-A8CE-444F-8809-3814CC9BC187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAF0A5F-A8CE-444F-8809-3814CC9BC187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAF0A5F-A8CE-444F-8809-3814CC9BC187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4F4110-C0F0-48D4-9B20-E9CEA2064B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4F4110-C0F0-48D4-9B20-E9CEA2064B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4F4110-C0F0-48D4-9B20-E9CEA2064B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4F4110-C0F0-48D4-9B20-E9CEA2064B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4CE0CC7-1049-4FE3-B421-3849C2B0FAB4} = {4FEDD761-A328-4E70-B4D9-BBA9BF7A11A8}
+	EndGlobalSection
+EndGlobal
